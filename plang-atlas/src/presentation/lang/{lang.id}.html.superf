@@ -18,6 +18,7 @@ end
 
     <main>
       <h1><%= lang.name %></h1>
+      <h2>First released <%= lang.year %></h2>
 
       <% if lang.tags? %>
         <h2>Tags</h2>
