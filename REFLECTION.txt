@@ -1,0 +1,10 @@
+In part 1, it looks like I missed out on a few parentheses on desugared_implicit_parens. It's because I kept trying to add parens to message, 
+but that would throw an error. That was late last night when I was trying to make as much progress on it before the morning, and in my now
+well-rested head it is clear to me why parens on message throws an error, but parens on something like event.date() would not! I had kind of
+suspected something was wrong with my version of the desugared binary operator one? But nope, it was good. It's just supposed to look like that.
+
+As I had predicted, my solutions to part 2 were definitely not as pretty as they could have been. I kept trying to implement the &: operator,
+but it never worked the way I wanted/expected it to, so I stuck to the |x| x.bar notation.
+
+The SSG was super neat, especially because I have been interested in web-dev a little bit more lately. I'd say it's a nice addition to the
+assignment. It is satisfyingly easy/creative after part 2, which for me (to be honest) was frustrating.
